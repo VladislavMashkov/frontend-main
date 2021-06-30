@@ -1,0 +1,25 @@
+.latest-news-container {
+	width:40%;
+	margin:2rem;
+	background-color:#808080;
+	border-radius:1.25rem;
+	padding:1.5rem;
+	min-width:300px;
+}
+.latest-news-container-date {
+	color:#ffffff;
+	font-size:0.75rem;
+	text-align:right;
+}
+.latest-news-container-content {
+	margin-top:8rem;
+}
+.latest-news-container-title {
+	color:#00B454;
+	font-size:2.25rem;
+
+}
+.latest-news-container-text {
+	color:#ffffff;
+	font-size:1.25rem;
+}

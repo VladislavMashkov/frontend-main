@@ -1,0 +1,236 @@
+.latest-ad-container {
+	width:100%;
+	background-color:#FFFFFF;
+	box-shadow: 0px 0px 25px rgba(119, 119, 119, 0.15);
+	border-radius:1.25rem;
+	padding:2rem;
+	margin-top:3vh;
+	display:flex;
+	flex-wrap:wrap;
+}
+.latest-ad-content {
+	display:grid;
+	grid-template-columns:0.5fr 1fr 1fr 0.1fr;
+	grid-template-rows:1fr 1fr 1fr;
+	width:100%;
+	max-height:200px;
+}
+.latest-ad-type {
+	width:100%;
+	text-align:center;
+	font-size:1.5rem;
+	text-transform:uppercase;
+	color:#00B454;
+	grid-column:1/5;
+	grid-row:1;
+}
+.latest-ad-content-img {
+	width: 70%;
+	max-width:150px;
+  	height: 0px;
+  	padding-bottom: 70%;
+	background-size:cover;
+	background-position:center;
+	border-radius:50%;
+	margin-left:5%;
+	grid-column:1;
+	grid-row:2/4;
+}
+.latest-ad-content-info-culture-name {
+	grid-column:2;
+	grid-row:2;
+	font-size:2rem;
+	color:#000000;
+}
+.latest-ad-content-info-culture-price {
+	grid-column:3;
+	grid-row:2;
+	font-size:2.25rem;
+	color:#00B454;
+	font-weight:bold;
+	display:flex;
+	justify-content:flex-end;
+}
+.latest-ad-content-info-culture-place {
+	grid-column:2;
+	grid-row:3;
+	font-size:1.5rem;
+	color:#898989;
+	border-top:1px solid rgba(0, 0, 0, 0.2);;
+}
+.latest-ad-content-info-culture-weight {
+	grid-column:3;
+	grid-row:3;
+	font-size:1.5rem;
+	color:rgba(0, 180, 84, 0.5);
+	border-top:1px solid rgba(0, 0, 0, 0.2);;
+	display:flex;
+	justify-content:flex-end;
+}
+@media (max-width: 369px) {
+	.latest-ad-container {
+		padding:0.5rem !important;
+	}
+	.latest-ad-content {
+		grid-template-columns:0fr 3fr 2fr 2fr !important;
+		grid-template-rows:1fr 1fr 1fr !important;
+	}
+	svg {
+		width:50px;
+		height:50px;
+	}
+  	.latest-ad-type {
+		font-size:1rem !important;
+	}
+	.latest-ad-content-img {
+		width: 70%;
+		max-width:150px;
+	  	height: 0px;
+	  	padding-bottom: 70%;
+		border-radius:50%;
+		margin-left:5%;
+	}
+	.latest-ad-content-info-culture-name {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-price {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-place {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-weight {
+		font-size:1rem;
+	}
+	.Button {
+		grid-column:4;
+		grid-row:2/4 !important;
+	}
+}
+@media (min-width: 370px) and (max-width: 376px) {
+  	.latest-ad-container {
+		padding:0.5rem !important;
+	}
+	.latest-ad-content {
+		grid-template-columns:0fr 3fr 2fr 2fr !important;
+		grid-template-rows:1fr 1fr 1fr !important;
+	}
+	svg {
+		width:50px;
+		height:50px;
+	}
+  	.latest-ad-type {
+		font-size:1rem !important;
+	}
+	.latest-ad-content-img {
+		width: 70%;
+		max-width:150px;
+	  	height: 0px;
+	  	padding-bottom: 70%;
+		border-radius:50%;
+		margin-left:5%;
+	}
+	.latest-ad-content-info-culture-name {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-price {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-place {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-weight {
+		font-size:1rem;
+	}
+	.Button {
+		grid-column:4;
+		grid-row:2/4 !important;
+	}
+}
+@media (max-width: 767px) {
+	.latest-ad-container {
+		padding:0.5rem !important;
+	}
+	.latest-ad-content {
+		grid-template-columns:0fr 3fr 2fr 2fr !important;
+		grid-template-rows:1fr 1fr 1fr !important;
+	}
+	svg {
+		width:50px;
+		height:50px;
+	}
+  	.latest-ad-type {
+		font-size:1rem !important;
+	}
+	.latest-ad-content-img {
+		width: 70%;
+		max-width:150px;
+	  	height: 0px;
+	  	padding-bottom: 70%;
+		border-radius:50%;
+		margin-left:5%;
+	}
+	.latest-ad-content-info-culture-name {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-price {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-place {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-weight {
+		font-size:1rem;
+	}
+	.Button {
+		grid-column:4;
+		grid-row:2/4 !important;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  	.latest-ad-container {
+		padding:0.5rem !important;
+	}
+	.latest-ad-content {
+		grid-template-columns:0fr 3fr 2fr 2fr !important;
+		grid-template-rows:1fr 1fr 1fr !important;
+	}
+	svg {
+		width:50px;
+		height:50px;
+	}
+  	.latest-ad-type {
+		font-size:1rem !important;
+	}
+	.latest-ad-content-img {
+		width: 70%;
+		max-width:150px;
+	  	height: 0px;
+	  	padding-bottom: 70%;
+		border-radius:50%;
+		margin-left:5%;
+	}
+	.latest-ad-content-info-culture-name {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-price {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-place {
+		font-size:1rem;
+	}
+	.latest-ad-content-info-culture-weight {
+		font-size:1rem;
+	}
+	.Button {
+		grid-column:4;
+		grid-row:2/4 !important;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+  
+}
+@media (min-width: 1200px) {
+  
+}

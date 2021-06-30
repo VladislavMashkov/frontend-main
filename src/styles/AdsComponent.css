@@ -1,0 +1,42 @@
+.ads-box {
+	padding:0 4%;
+	margin-top:10vh;
+}
+.ads-filter-form {
+	width:100% !important;
+	background-color:#00B454 !important;
+	border-radius:1.25rem !important;
+	padding:3rem;
+}
+.ads-title {
+	font-size:3rem;
+	color:#FFFFFF;
+	text-align:center;
+	overflow: hidden;
+	font-weight:bold;
+}
+
+.form-inline {
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr;
+	margin-top:3rem;
+}
+.form-inline div {
+	border-radius:1rem;
+}
+
+.ads-container {
+	margin-top:10vh;
+}
+.btn-show-more-ads {
+	font-size:1.75rem;
+	color:#ffffff;
+	padding:0.75rem 1.25rem;
+	background-color:#00B454;
+	margin:10vh auto !important;
+
+	align-self:center;
+	border-radius:1.25rem;
+}
+@import url(https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css)
+

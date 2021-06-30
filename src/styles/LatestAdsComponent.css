@@ -1,0 +1,41 @@
+.latest-ads-box {
+	padding:0 4%;
+	margin-top:10vh;
+}
+.latest-ads-title {
+	font-size:3rem;
+	color:#00B454;
+	text-align:center;
+	overflow: hidden;
+	font-weight:bold;
+}
+.latest-ads-title:before,
+.latest-ads-title:after {
+	content: '';
+	display: inline-block;
+	vertical-align: middle;
+	box-sizing: border-box;
+	width: 100%;
+	height: 3px;
+	background: #6CBD83;
+	border: solid #FFF;
+	border-width: 0 10px;
+}
+.latest-ads-title:before {
+	margin-left: -100%;
+}
+.latest-ads-title:after {
+	margin-right: -100%;
+}
+.latest-ads-container {
+	margin-top:10vh;
+}
+.btn-show-all-ads {
+	font-size:1.75rem;
+	color:#ffffff;
+	padding:0.75rem 1.25rem;
+	background-color:#00B454;
+	margin-top:10vh;
+	float:right;
+	border-radius:1.25rem;
+}
